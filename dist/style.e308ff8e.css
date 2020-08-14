@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.dt {
+  position: absolute;
+  line-height: 27px;
+  font-size: 27px;
+  top: 48%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#date {
+  color: red;
+}
+#time {
+  padding-left: 3px;
+  font-weight: 600;
+}
+#miao {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  font-weight: 600;
+  transform: translateX(-50%);
+  font-size: 40px;
+  color: red;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
